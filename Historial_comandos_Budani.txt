@@ -34,6 +34,12 @@ git add README.md datos_usuarios.txt
 git commit -m "ADD: Añadiendo Readme y datos de usuario"
 git push
 mkdir -p ~/{materia1,materia2}/uni{1..3}
+cd $HOME
+tree
+ls -l
+cd repogit
+ls -l
+cd TP_AySO_Budani_Iara
 echo "mkdir -p ~/{materia1,materia2}/uni{1..3}" > script_dir.sh
 chmod 777 script_dir.sh
 ls -l
